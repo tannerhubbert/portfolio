@@ -7,7 +7,7 @@ const About = () => {
       <h1 className="text-center mt-5 mb-5">
         <FaCode /> Tanner Hubbert
       </h1>
-      <div className="row">
+      <div className="row bio-row">
         <img
           className="biopic col-3"
           src="./portfolio/images/tanner.jpg"

@@ -12445,6 +12445,23 @@ img.biopic.col-3 {
   align-self: flex-start;
 }
 
+@media (max-width: 998px) {
+  .row.bio-row {
+    display: block;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+
+  .row.bio-row img.biopic {
+    float: left;
+    min-width: 115px;
+  }
+
+  div.col {
+    padding: 0;
+  }
+}
+
 /* examples */
 
 .examples a {
@@ -12538,5 +12555,12 @@ footer li.list-group-item a {
   &:hover {
     opacity: 0.6;
     transition: 0.5s ease-in;
+  }
+}
+
+@media (max-width: 998px) {
+  footer ul.list-group {
+    max-width: 90%;
+    margin: 0 auto;
   }
 }
