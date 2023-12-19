@@ -10,6 +10,7 @@ import { DiGithub } from 'react-icons/di';
 import { DiPhotoshop } from 'react-icons/di';
 import { BiLogoTypescript } from 'react-icons/bi';
 import { FaSketch } from 'react-icons/fa';
+import { RiBootstrapLine } from 'react-icons/ri';
 
 const Skills = () => {
   return (
@@ -49,6 +50,9 @@ const Skills = () => {
           </li>
           <li className="list-group-item col-3">
             Sketch <FaSketch />
+          </li>
+          <li className="list-group-item col-3">
+            Bootstrap <RiBootstrapLine />
           </li>
         </ul>
       </div>
