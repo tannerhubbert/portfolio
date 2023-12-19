@@ -10,7 +10,7 @@ const Home = () => {
         think you will like. If none of that sounds good you can stare at my
         cats for a while.
       </p>
-      <img className="cats" src="./cats2.jpg" alt="my cats" />
+      <img className="./images/cats" src="./cats2.jpg" alt="my cats" />
     </div>
   );
 };
