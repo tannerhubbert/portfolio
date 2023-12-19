@@ -11,7 +11,7 @@ const Examples = () => {
             href="https://www.lazarus-demo.website/"
             target="_blank"
             rel="noopener noreferrer">
-            <img src="ex1.png" alt="ex 1" />
+            <img src="./ex1.png" alt="ex 1" />
             <button className="btn btn-primary">visit example</button>
           </a>
         </span>
@@ -20,7 +20,7 @@ const Examples = () => {
             href="https://www.barnabas-demo.website/"
             target="_blank"
             rel="noopener noreferrer">
-            <img src="ex2.png" alt="ex 2" />
+            <img src="./ex2.png" alt="ex 2" />
             <button className="btn btn-primary">visit example</button>
           </a>
         </span>
@@ -29,7 +29,7 @@ const Examples = () => {
             href="https://www.disciple-demo.website/"
             target="_blank"
             rel="noopener noreferrer">
-            <img src="ex3.png" alt="ex 3" />
+            <img src="./ex3.png" alt="ex 3" />
             <button className="btn btn-primary">visit example</button>
           </a>
         </span>
