@@ -7,7 +7,7 @@ const Navbar = () => {
     <>
       <Nav>
         <div className="logo">
-          <a href="/">TH</a>
+          <a href="/portfolio">TH</a>
         </div>
         <MobileBurger />
         <NavMenu className="nav-wrapper">
