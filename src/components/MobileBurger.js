@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Nav, NavLink, NavMenu } from './NavbarElements';
 import { GiHamburgerMenu } from 'react-icons/gi';
+import { GrClose } from 'react-icons/gr';
 
 export default function MobileBurger() {
   const [isOpen, setIsOpen] = useState(false);
@@ -16,7 +17,10 @@ export default function MobileBurger() {
   return (
     <div className="App">
       <div className="mobile-nav">
-        <GiHamburgerMenu onClick={toggle} />
+        <span onClick={toggle}>
+          {isOpen && <GrClose />}
+          {!isOpen && <GiHamburgerMenu />}
+        </span>
 
         {isOpen && (
           <NavMenu className="mobile-nav-wrapper" onClick={resetToggle}>

@@ -10,6 +10,7 @@ const Navbar = () => {
           <a href="/portfolio">TH</a>
         </div>
         <MobileBurger />
+
         <NavMenu className="nav-wrapper">
           <NavLink to="/about">About</NavLink>
           <NavLink to="/examples">Examples</NavLink>
