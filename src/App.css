@@ -12358,6 +12358,11 @@ fieldset:disabled .btn {
 /*# sourceMappingURL=App.css.map */
 /* overrides */
 
+h1,
+p {
+  color: #242424;
+}
+
 /* header */
 .logo {
   font-size: 50px;
@@ -12537,26 +12542,34 @@ img.biopic.col-3 {
 
 /* footer */
 
-footer li.list-group-item {
-  background-color: #3d3d3d;
+footer li.list-group {
   padding-bottom: 13px;
 }
 
 footer li.list-group-item {
   background-color: #f8f8f2;
+  transition: 0.2s ease-in;
+  padding: 0;
+
+  a {
+    display: block;
+    padding: 10px 14px 12px 14px;
+  }
+
+  &:hover {
+    background-color: #3d3d3d;
+    transition: 0.2s ease-in;
+
+    svg {
+      fill: #f8f8f2;
+      transition: 0.2s ease-in;
+    }
+  }
 }
 
 footer li.list-group-item svg {
   fill: #3d3d3d;
-}
-
-footer li.list-group-item a {
-  opacity: 1;
   transition: 0.2s ease-in;
-  &:hover {
-    opacity: 0.6;
-    transition: 0.5s ease-in;
-  }
 }
 
 @media (max-width: 998px) {
