@@ -11,6 +11,7 @@ import { DiPhotoshop } from 'react-icons/di';
 import { BiLogoTypescript } from 'react-icons/bi';
 import { FaSketch } from 'react-icons/fa';
 import { RiBootstrapLine } from 'react-icons/ri';
+import { FaGolang } from 'react-icons/fa6';
 
 const Skills = () => {
   return (
@@ -20,6 +21,9 @@ const Skills = () => {
         <ul className="row">
           <li className="list-group-item col-3">
             PHP <DiPhp />
+          </li>
+          <li className="list-group-item col-3">
+            Golang <FaGolang />
           </li>
           <li className="list-group-item col-3">
             SQL Database Management <DiMysql />
