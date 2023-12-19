@@ -12438,6 +12438,13 @@ img.cats {
   width: 100%;
 }
 
+/* about */
+img.biopic.col-3 {
+  object-fit: contain;
+  top: 0;
+  align-self: flex-start;
+}
+
 /* examples */
 
 .examples a {
