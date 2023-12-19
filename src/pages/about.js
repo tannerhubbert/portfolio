@@ -10,8 +10,8 @@ const About = () => {
       <div className="row">
         <img
           className="biopic col-3"
-          src="tanner.jpg"
-          alt="Tanner Hubbert bio pic"
+          src="./images/tanner.jpg"
+          alt="Tanner Hubbert bio"
         />
         <div className="col">
           <p>
