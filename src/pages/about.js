@@ -10,7 +10,7 @@ const About = () => {
       <div className="row">
         <img
           className="biopic col-3"
-          src="./images/tanner.jpg"
+          src="./portfolio/images/tanner.jpg"
           alt="Tanner Hubbert bio"
         />
         <div className="col">
