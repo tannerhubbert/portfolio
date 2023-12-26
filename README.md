@@ -1,6 +1,6 @@
 # My Portfolio Site Using React 
 
-Visit [http://localhost:3000/portfolio](http://localhost:3000/portfolio) to view on Github pages.
+Visit [https://tannerhubbert.github.io/portfolio/](https://tannerhubbert.github.io/portfolio/) to view on Github pages.
 
 ## Getting Started with Create React App
 
